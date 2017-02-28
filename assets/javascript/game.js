@@ -42,7 +42,7 @@ function resetScore(){
 }
 
 
-// Update Rupee Score
+// Update Score
 
 function update(){
     $("#myScore").html(score);
