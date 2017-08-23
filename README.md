@@ -1,27 +1,16 @@
-# Crystals-Game
-Week Four Homework - Crystals Game
+# Super Mario Mushrooms Number Game
 
+## Check it out [here](https://mario-number-attack.herokuapp.com/)!
 
-![Crystal Collector](Images/1-CrystalCollector.jpg)
+#### How it works
 
-1. [Watch the demo](homework_demos/crystalsCollector_demo.mp4).
+* This is a Super Mario Number Game using jQuery.
+* Play the game by clicking one of the four mushrooms to add a number.
+* If you get the number to match the random generated number then you win!
+* If you the number is higher than the random generated number then you lose.
+* Once the number either matches or goes over the generated number then the game auto resets with a new generated number.
+* _Turn the audio on to hear extra effects!_
 
-2. The player will have to guess the answer, just like in Hangman. This time, though, the player will guess with numbers instead of letters. 
+#### Assignment
 
-3. Here's how the app works:
-	* There will be four crystals displayed as buttons on the page.
-
-	* The player will be shown a random number at the start of the game.
-
-	* When the player clicks on a crystal, it will add a specific amount of points to the player's total score. 
-		* Your game will hide this amount until the player clicks a crystal.
-		* When they do click one, update the player's score counter.
-
-	* The player wins if their total score matches the random number from the beginning of the game.
-
-	* The player loses if their score goes above the random number.
-
-	* The game restarts whenever the player wins or loses.
-		* When the game begins again, the player should see a new random number. Also, all the crystals will have four new hidden values. Of course, the user's score (and score counter) will reset to zero.
-
-	* The app should show the number of games the player wins and loses. To that end, do not refresh the page as a means to restart the game.
+* This application is an [assignment](https://github.com/UCF-Coding-Boot-Camp/01-2017-VW-Class-Content/blob/master/Homework/Week-04/Instructions/homework_instructions.md "Homework #4") excecuted by [Robert Lester,](https://github.com/Roblester09 "Robert Lester GitHub") for UCF Coding Bootcamp, Spring Cohort 
